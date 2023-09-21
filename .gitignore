@@ -1,6 +1,31 @@
-# Maven
+# Ignore build artifacts
 target/
+bin/
+obj/
+dist/
+build/
 
-# IDE-specific files
+# Ignore IDE-specific files and directories
 .idea/
 .vscode/
+*.iml
+*.ipr
+*.iws
+
+# Ignore node_modules in Node.js projects
+node_modules/
+
+# Ignore Python virtual environment
+venv/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.tmp.*
+*.swp
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Add other project-specific ignore rules below
